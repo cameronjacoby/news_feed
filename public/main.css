@@ -1,0 +1,156 @@
+* {
+  text-align: center;
+  margin: 0 auto;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background: #FFE9E6;
+}
+
+header {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background: #ABC7D4;
+  color: #711952;
+  font-family: 'Anton', sans-serif;
+}
+
+header img {
+  width: 100px;
+  margin-right: 15px;
+}
+
+header h1 {
+  margin-bottom: 10px;
+  font-size: 48px;
+}
+
+header h3 {
+  color: #E84BB2;
+  font-size: 18px;
+}
+
+#navigation {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background: #FF9482;
+}
+
+#navigation td {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+#navigation td a {
+  text-decoration: none;
+  color: #FFE9E6;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+#new_article {
+  margin-top: 40px;
+  background-color: rgba(255, 255, 255, 0.4);
+  width: 240px;
+  padding: 10px;
+  border: 2px solid #711952;
+  border-radius: 100px;
+}
+
+#new_article a {
+  font-family: 'Anton', sans-serif;
+  color: #E84BB2;
+  font-size: 16px;
+}
+
+#content {
+  max-width: 600px;
+  margin: 0 auto;
+  margin-top: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #383333;
+}
+
+#content h2 {
+  margin-bottom: 15px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+}
+
+#content p {
+  margin-bottom: 40px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#content img {
+  width: 400px;
+  margin-bottom: 40px;
+  border: 2px solid #711952;
+  border-radius: 60px;
+}
+
+a {
+  text-decoration: none;
+  color: #E84BB2;
+  font-family: 'Anton', sans-serif;
+}
+
+#contact {
+  margin-top: 40px;
+  color: #711952;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+}
+
+#contact p {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+#contact a {
+  color: #711952;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+}
+
+form {
+  margin-top: 40px;
+}
+
+form h2 {
+  color: #711952;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+#article_title, #article_summary, #article_content {
+  margin-bottom: 30px;
+  width: 300px;
+  outline: none;
+  border: 1px dotted #711952;
+  background-color: rgba(255, 255, 255, 0.4);
+  color: #383333;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#submit_button {
+  background-color: rgba(255, 255, 255, 0.4);
+  width: 125px;
+  padding: 8px;
+  border: 2px solid #711952;
+  border-radius: 100px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  color: #E84BB2;
+  font-size: 16px;
+}
+
+
+
+
