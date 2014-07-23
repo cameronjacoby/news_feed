@@ -34,6 +34,7 @@ app.get('/contact', function(req, res) {
 
 app.get('/articles', function(req, res) {
   res.render('articles/articles', {articles: articles});
+  console.log(articles);
 });
 
 app.get('/articles/new', function(req, res) {
@@ -43,7 +44,6 @@ app.get('/articles/new', function(req, res) {
 app.post('/articles', function(req, res) {
   console.log(req.body.article);
   articles.push(req.body.article);
-  console.log(articles);
   res.redirect('/articles');
 });
 

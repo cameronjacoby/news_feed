@@ -143,6 +143,7 @@ form h2 {
   background-color: rgba(255, 255, 255, 0.4);
   width: 125px;
   padding: 8px;
+  outline: none;
   border: 2px solid #711952;
   border-radius: 100px;
   font-family: 'Open Sans', sans-serif;

@@ -1,42 +1,13 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>The Daily Planet | Articles</title>
-    <link rel="stylesheet" href="/main.css">
-    <link href='http://fonts.googleapis.com/css?family=Anton' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800' rel='stylesheet' type='text/css'>
-    <link rel="shortcut icon" href="/images/planet.png" />
-  </head>
-  <body>
-    <header>
-      <table>
-        <td><img src="/images/planet.png" /></td>
-        <td>
-          <h1>The Daily Planet</h1>
-          <h3>News that's out of this world!</h3>
-        </td>
-      </table>
-    </header>
-    <div id="navigation">
-      <table>
-        <td><a href="/">HOME</a></td>
-        <td><a href="/articles">ARTICLES</a></td>
-        <td><a href="/about">ABOUT</a></td>
-        <td><a href="/contact">CONTACT</a></td>
-      </table>
-    </div>
+<% include ../partials/header %>
+
     <div id="new_article"><a href="/articles/new">Click here to add a new article!</a></div>
     <div id="content">
-      <% articles.forEach(function(article) { %>
+      <% articles.forEach(function(article, index) { %>
         <article>
           <h2><%= article.title %></h2>
-          <p><%= article.summary %>... <a href="articles/0">READ MORE</a></p>
+          <p><%= article.summary %>... <a href="articles/<%= index %>">READ MORE</a></p>
         </article>
       <% }) %>
     </div>
-  </body>
-</html>
 
-
-
-
+<% include ../partials/footer %>
