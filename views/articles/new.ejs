@@ -1,12 +1,24 @@
 <% include ../partials/header %>
 
-    <form method="post" action="/articles">
-      <h2><label for="article_title">Article Title</label></h2>
-      <p><input type="text" name="article[title]" id="article_title" placeholder="article title"></p>
-      <h2><label for="article_summary">Article Summary</label></h2> 
-      <p><textarea name="article[summary]" id="article_summary"placeholder="article summary"></textarea></p>
-      <h2><label for="article_content">Article Content</label></h2> 
-      <p><textarea name="article[content]" id="article_content"placeholder="type your article's content here!"></textarea></p>
-      <input type="submit" id="submit_button" value="Save Article">
+  <form method="post" action="/articles">
+    <h2>
+      <label for="article_title">Article Title</label>
+    </h2>
+    <p>
+      <input type="text" name="article[title]" id="article_title" placeholder="give your article a title">
+    </p>
+    <h2>
+      <label for="article_summary">Article Summary</label>
+    </h2> 
+    <p>
+      <textarea name="article[summary]" id="article_summary"placeholder="type a few sentences to summarize your article"></textarea>
+    </p>
+    <h2>
+      <label for="article_content">Article Content</label>
+    </h2> 
+    <p>
+      <textarea name="article[content]" id="article_content"placeholder="type the entire contents of your article here"></textarea>
+    </p>
+    <input type="submit" id="submit_button" value="Save Article">
 
 <% include ../partials/footer %>

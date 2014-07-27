@@ -1,13 +1,8 @@
 <% include ../partials/header %>
 
-    <div id="new_article"><a href="/articles/new">Click here to add a new article!</a></div>
-    <div id="content">
-      <% articles.forEach(function(article, index) { %>
-        <article>
-          <h2><%= article.title %></h2>
-          <p><%= article.summary %>... <a href="articles/<%= index %>">READ MORE</a></p>
-        </article>
-      <% }) %>
-    </div>
+  <div id="new_article">
+    <a href="/articles/new">Click here to add a new article!</a>
+  </div>
+  <% include ../partials/articles %>  
 
 <% include ../partials/footer %>

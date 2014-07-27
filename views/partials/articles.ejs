@@ -1,0 +1,10 @@
+<div id="content">
+  <% articles.forEach(function(article, index) { %>
+    <article>
+      <h2><%= article.title %></h2>
+      <p>
+        <%= article.summary %>... <a href="articles/<%= index %>">READ MORE</a>
+      </p>
+    </article>
+  <% }) %>
+</div>

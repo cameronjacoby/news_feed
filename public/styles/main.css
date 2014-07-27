@@ -1,3 +1,6 @@
+@import url(http://fonts.googleapis.com/css?family=Anton);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800);
+
 * {
   text-align: center;
   margin: 0 auto;
@@ -54,7 +57,7 @@ header h3 {
 
 #new_article {
   margin-top: 40px;
-  background-color: rgba(255, 255, 255, 0.4);
+  background-color: #FEF1EF;
   width: 240px;
   padding: 10px;
   border: 2px solid #711952;
@@ -67,7 +70,7 @@ header h3 {
   font-size: 16px;
 }
 
-#content {
+#content, #about_content {
   max-width: 600px;
   margin: 0 auto;
   margin-top: 40px;
@@ -82,16 +85,21 @@ header h3 {
   font-weight: 700;
 }
 
-#content p {
+#content p, #about_content {
   margin-bottom: 40px;
   font-family: 'Open Sans', sans-serif;
 }
 
-#content img {
-  width: 400px;
+#about_content p {
+  margin-bottom: 20px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#about_content img {
+  width: 500px;
   margin-bottom: 40px;
   border: 2px solid #711952;
-  border-radius: 60px;
+  border-radius: 20px;
 }
 
 a {
@@ -101,8 +109,8 @@ a {
 }
 
 #contact {
-  margin-top: 40px;
-  color: #711952;
+  margin-top: 80px;
+  color: #383333;
   font-family: 'Open Sans', sans-serif;
   font-weight: 700;
 }
@@ -112,10 +120,15 @@ a {
   margin-bottom: 10px;
 }
 
+#contact div {
+  margin-top: 60px;
+}
+
 #contact a {
-  color: #711952;
+  color: #E84BB2;
   font-family: 'Open Sans', sans-serif;
   font-weight: 700;
+  font-size: 20px;
 }
 
 form {
@@ -134,13 +147,13 @@ form h2 {
   width: 300px;
   outline: none;
   border: 1px dotted #711952;
-  background-color: rgba(255, 255, 255, 0.4);
+  background-color: #FEF1EF;
   color: #383333;
   font-family: 'Open Sans', sans-serif;
 }
 
 #submit_button {
-  background-color: rgba(255, 255, 255, 0.4);
+  background-color: #FEF1EF;
   width: 125px;
   padding: 8px;
   outline: none;
