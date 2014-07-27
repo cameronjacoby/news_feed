@@ -33,3 +33,24 @@ All your article related views should be in an `views/articles` folder. Each art
 ## Bonus
 
 Include some navigation links to help the user navigate the site.
+
+
+--------------------
+
+### Completed project:
+
+**Home**
+
+![ScreenShot](/public/images/screenshot_home.png)
+
+**Articles View**
+
+![ScreenShot](/public/images/screenshot_articles.png)
+
+**Add New Article**
+
+![ScreenShot](/public/images/screenshot_new.png)
+
+
+
+
