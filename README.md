@@ -39,15 +39,15 @@ Include some navigation links to help the user navigate the site.
 
 ### Completed project:
 
-##Home
+#### Home
 
 ![ScreenShot](/public/images/screenshot_home.png)
 
-##Articles View
+#### Articles View
 
 ![ScreenShot](/public/images/screenshot_articles.png)
 
-##Add New Article
+#### Add New Article
 
 ![ScreenShot](/public/images/screenshot_new.png)
 
